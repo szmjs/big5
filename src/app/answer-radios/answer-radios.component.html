@@ -1,0 +1,8 @@
+
+<mat-radio-group  fxLayout="row" fxLayoutAlign="end end" [(ngModel)]="chosenAnswer" (ngModelChange)="sendAnswer()">
+
+    <mat-radio-button  *ngFor= "let answer of answers" [value]="answer"></mat-radio-button>
+
+</mat-radio-group>
+
+<h1 fxLayoutAlign="end" id="answ">{{chosenAnswer}}</h1>

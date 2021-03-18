@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+
+<div fxLayout="row" fxLayoutAlign="center">
+    <div id="mainC" fxLayout="column" fxLayoutGap="40px" fxFlex="20">
+        <app-question *ngFor = "let q of questions" [question]="q.Q" [id]="q.id" (answerWithQIDEmitter)="receiveAnswerWithQID($event)"></app-question>
+    </div>
+</div>
+

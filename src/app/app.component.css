@@ -1,0 +1,11 @@
+.mainC {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -150px;
+  margin-top: -150px;
+  color: "primary";
+}
+/*# sourceMappingURL=app.component.css.map */
